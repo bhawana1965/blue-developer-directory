@@ -1,0 +1,192 @@
+*{
+    margin: 0px auto 0px auto;
+    text-align: left;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: blue;
+    background-image: url(../background.png);
+    background-repeat: repeat-x;
+}
+a {
+    text-decoration: none;
+}
+table, tr, td, th{
+    margin: 0px;
+}
+
+table {
+    padding: 10px 0px;
+}
+
+th{
+    text-align: center;
+}
+
+td{
+    padding: 5px 20px;
+}
+
+
+
+h3 {
+    color: rgb(85, 85, 240);
+    font-weight: bold;
+    padding: 10px 0px;
+    font-size: 16px;
+}
+h2{
+    padding-bottom: 10px;
+}
+h4{
+    font-size: 15px;
+    font-weight: bold;
+    padding:7px 0px;
+    color: #054dbc;
+}
+
+#container {
+    width: 960px;
+}
+
+#header {
+    width: 960px;
+    height: 85px;
+}
+
+#header h1{
+    float: left;
+    color: white;
+    font-size: 45px;
+    text-align: left;
+    padding: 20px 0px 0px 20px;
+
+}
+
+.blue-text {
+    color: rgb(90, 119, 248);
+}
+
+#header h2{
+    float: right;
+    text-align: right;
+    color: rgb(175, 219, 223);
+    padding: 40px 20px 0px 0px;
+    
+}
+
+.white-text{
+    color: white;
+}
+
+#menu {
+    width: 960px;
+    display: block;
+    clear: both;
+    float: left;
+    height: 54px;
+}
+#menu ul{
+    padding-top: 20px;
+    margin-left: auto;
+    list-style: none;
+    width: 960px;
+}
+
+#menu li{
+    padding: 10px;
+    display: inline;
+}
+
+#menu a, #menu a:visited{
+    display: inline;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px  20px ;
+}
+
+#leftmenu {
+    margin-top: 15px;
+    width: 160px;
+    float: left;
+    background: rgb(51, 76, 218);
+    padding: 15px 20px 10px 10px;
+    border-radius: 10px;
+}
+#leftmenu ul{
+    padding: 0px;
+    list-style: none;
+}
+#leftmenu li {
+    padding: 15px 0px 8px 0px;
+    list-style: none;
+    border-bottom: 1px dashed white;
+}
+
+#leftmenu a, #leftmenu a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+#leftmenu h3{
+     color: white;
+     padding: 0px;
+     padding-bottom: 8px;
+     border-bottom: white solid 2px;
+}
+
+#content{
+    margin-top:15px;
+    width: 680px;
+    height: auto;
+    background: white;
+    display: block;
+    float: left;
+    margin-left: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 6px #1c47be solid;
+}
+
+.float{
+    float: right;
+    margin: 15px;
+}
+
+.developer {
+    width: 170px;
+    float: right;
+}
+
+.developer ul {
+    margin-bottom: 10px;
+    list-style: none;
+    padding: 0px;
+}
+.developer li{
+    list-style: none;
+    line-height: 1.7em;
+}
+
+ .dev-table tr,  .dev-table td{
+    border-bottom: 1px dashed black;
+}
+
+
+label {
+   display: inline-block;
+    width: 150px;
+}
+
+p {
+    padding: 5px 0px;
+}
