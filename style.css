@@ -55,12 +55,12 @@ h4{
     width: 960px;
 }
 
-#header {
+header {
     width: 960px;
     height: 85px;
 }
 
-#header h1{
+header h1{
     float: left;
     color: white;
     font-size: 45px;
@@ -73,7 +73,7 @@ h4{
     color: rgb(90, 119, 248);
 }
 
-#header h2{
+header h2{
     float: right;
     text-align: right;
     color: rgb(175, 219, 223);
@@ -144,7 +144,7 @@ h4{
      border-bottom: white solid 2px;
 }
 
-#content{
+section{
     margin-top:15px;
     width: 680px;
     height: auto;
@@ -189,4 +189,12 @@ label {
 
 p {
     padding: 5px 0px;
+}
+
+footer{
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 5px 5px;
 }
