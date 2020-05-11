@@ -33,6 +33,11 @@
                <a href="browse.html">
                     Browse Developers
                 </a>
+                <li class="menuitem">
+                    <a href="register.html">
+                      Register as a developer
+                    </a>
+                  </li>
                 </li>
                 <li  class="menuitem">
                     <a href="contact.html">
@@ -71,6 +76,44 @@
                 Illustrator and Fireworks to Markup Languages like HTML5, XHTML, XML to Programming languages 
                 such as Javascript,PHP,Python,ASP. 
             </p>
+            <video id="ad" width="420" height="300" controls>
+                <source src="video.mp4" type="video/mp4">
+                    please update your browser
+            </video>
+
+            <div style="width: 400px;">
+            <button onclick="playPause()">play/pause</button>
+            <button onclick="makeBig()">Big</button>
+            <button onclick="makeSmall()">Small</button>
+            <button onclick="makeNormal()">Normal</button>
+            </div>
+
+            <script>
+                var myvideo=document.getElementById('ad');
+
+                function playPause(){
+                    if(myvideo.paused)
+                    {
+                        myvideo.play();
+                    }
+                    else
+                    {
+                        myvideo.pause();
+                    }
+                }
+
+                function makeBig(){
+                    myvideo.width=560;
+                }
+
+                function makeSmall(){
+                    myvideo.width=300;
+                }
+
+                function makeNormal(){
+                    myvideo.width=420;
+                }
+            </script>
 
         </section>
     </div>

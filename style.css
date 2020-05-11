@@ -1,11 +1,11 @@
 *{
-    margin: 0px auto 0px auto;
+    margin: 0 auto 0 auto;
     text-align: left;
 }
 
 body{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     text-align: left;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
@@ -14,15 +14,25 @@ body{
     background-image: url(../background.png);
     background-repeat: repeat-x;
 }
+aside {
+    color: white;
+}
+
+aside input[type="text"] {
+    margin-bottom: 10px;
+}
+aside input[type="email"]{
+    margin-bottom: 10px;
+}
 a {
     text-decoration: none;
 }
 table, tr, td, th{
-    margin: 0px;
+    margin: 0;
 }
 
 table {
-    padding: 10px 0px;
+    padding: 10px 0;
 }
 
 th{
@@ -38,7 +48,7 @@ td{
 h3 {
     color: rgb(85, 85, 240);
     font-weight: bold;
-    padding: 10px 0px;
+    padding: 10px 0;
     font-size: 16px;
 }
 h2{
@@ -47,12 +57,13 @@ h2{
 h4{
     font-size: 15px;
     font-weight: bold;
-    padding:7px 0px;
+    padding:7px 0;
     color: #054dbc;
 }
 
 #container {
     width: 960px;
+    overflow: auto;
 }
 
 header {
@@ -65,7 +76,7 @@ header h1{
     color: white;
     font-size: 45px;
     text-align: left;
-    padding: 20px 0px 0px 20px;
+    padding: 20px 0 0 20px;
 
 }
 
@@ -77,7 +88,7 @@ header h2{
     float: right;
     text-align: right;
     color: rgb(175, 219, 223);
-    padding: 40px 20px 0px 0px;
+    padding: 40px 20px 0 0;
     
 }
 
@@ -85,33 +96,47 @@ header h2{
     color: white;
 }
 
+
 #menu {
     width: 960px;
     display: block;
     clear: both;
     float: left;
     height: 54px;
+   
+}
+#display {
+    color: white;
+    clear: both;
+    float:right;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    
 }
 #menu ul{
-    padding-top: 20px;
+    
     margin-left: auto;
     list-style: none;
     width: 960px;
+    padding-top: 20px;
+    padding-left: 18px;
 }
 
 #menu li{
-    padding: 10px;
+    padding:10px;
+    list-style: none;
     display: inline;
 }
 
-#menu a, #menu a:visited{
+ nav#menu li  a,  nav#menu  li a:visited{
     display: inline;
     text-decoration: none;
     color: white;
     font-size: 15px;
     text-align: center;
     font-weight: bold;
-    padding: 20px  20px ;
+    padding: 0 13px 0  13px ;
 }
 
 #leftmenu {
@@ -188,7 +213,7 @@ label {
 }
 
 p {
-    padding: 5px 0px;
+    padding: 10px 0px;
 }
 
 footer{

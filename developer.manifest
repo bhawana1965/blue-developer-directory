@@ -1,0 +1,17 @@
+CACHE MANIFEST
+# 2020-04-01
+
+CACHE:
+index.html
+info.html
+background.png
+css/style.css
+bdd.jpg
+
+#this require user to be online
+NETWORK:
+login.php
+
+#this file opens when no file opens mainly if error comes
+FALLBACK:
+*.html offline.html
