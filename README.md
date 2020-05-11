@@ -7,4 +7,4 @@ this is a practice web page
 *Project is using simple styling
 
 ## Link Example
-[Blue Developer Directory][https://determined-allen-639e47.netlify.app/index.html]
+[Blue Developer Directory][https://nervous-carson-a5c0c8.netlify.app/index.html]
