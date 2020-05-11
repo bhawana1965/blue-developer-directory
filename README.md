@@ -1,6 +1,7 @@
 # blue developer directory
-This is a blue developer directory devlepoed by using html5 and css3.
-This directory shows soe popular web developer and their work-fields just as an examples
+This is a blue developer directory developed by using html5 and css3.
+This directory shows some popular web developer and their work-fields just as an examples.
+this is a practice web page
 
 *This is a practice project
 *Project is using simple styling
