@@ -15,3 +15,4 @@ login.php
 #this file opens when no file opens mainly if error comes
 FALLBACK:
 *.html offline.html
+ 
